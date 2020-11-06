@@ -1,0 +1,3 @@
+flows:
+  default:
+    - docker: jcanizalez/terratest
