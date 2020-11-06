@@ -4,7 +4,7 @@ configuration:
 
 flows:
   default:
-  - task: myTask
+  - task: terratest
     in:
       name: world
     out:
