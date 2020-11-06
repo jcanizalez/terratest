@@ -1,6 +1,6 @@
 configuration:
   dependencies:
-    - "http://jcanizalez.jfrog.io/artifactory/devopsmindset/com/devopsmindset/concord/terratest-task/1.0.0/terratest-task-1.0.0.jar"
+    - "https://jcanizalez.jfrog.io/artifactory/devopsmindset/terratest-task/terratest-task/1.32.2-SNAPSHOT/terratest-task-1.32.2-20201106.211438-1.jar"
 
 flows:
   default:
