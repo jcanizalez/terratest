@@ -1,8 +1,13 @@
+configuration:
+  dependencies:
+    - "https://jcanizalez.jfrog.io/artifactory/devopsmindset/com/walmartlabs/concord/plugins/terratest-task/1.32.2-SNAPSHOT/terratest-task-1.32.2-20201106.201122-1.jar"
+
 flows:
   default:
-    - docker: library/alpine
-      cmd: echo '${greeting}'
-
-configuration:
-  arguments:
-    greeting: "Hello, world!"
+  - task: myTask
+    in:
+      name: world
+    out:
+      success: callSuccess
+    error:
+      - log: "Something bad happened: ${lastError}"
