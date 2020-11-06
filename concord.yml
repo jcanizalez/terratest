@@ -6,8 +6,5 @@ flows:
   default:
   - task: terratest
     in:
-      name: world
-    out:
-      success: callSuccess
-    error:
-      - log: "Something bad happened: ${lastError}"
+      action: plan
+ 
