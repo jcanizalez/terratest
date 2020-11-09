@@ -15,3 +15,4 @@ flows:
       backend:
         remote:
           token: ${crypto.decryptString("qYxEz4mmt3zkj4fXeRZfeFlR8Fjat6YhDGwXhiDQ2tBZYhgP/XI2ctUvXd0RfmHqxbTuykbUXexpTBNneBUyzCkSNI8u23z7YGUAxBuA4a0fHKWZS+bg6EHxfFXGb7mP")}
+          hostname: "app.terraform.io"
