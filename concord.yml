@@ -6,5 +6,5 @@ flows:
   default:
   - task: terratest
     in:
-      test: "test/hello_world_example_test.go"
+      test: "/test/hello_world_example_test.go"
  
