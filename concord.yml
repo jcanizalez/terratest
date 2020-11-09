@@ -11,5 +11,5 @@ flows:
   azure:
   - task: terratest
     in:
-      test: "/test/hello_world_example_test.go"
+      test: "/test/azure_full_web_app_test.go"
  
