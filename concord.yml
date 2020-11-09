@@ -7,4 +7,9 @@ flows:
   - task: terratest
     in:
       test: "/test/hello_world_example_test.go"
+      
+  azure:
+  - task: terratest
+    in:
+      test: "/test/hello_world_example_test.go"
  
